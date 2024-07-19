@@ -1,0 +1,48 @@
+/* NoteForm.css */
+.card {
+    margin: 20px auto; /* Center the card */
+    max-width: 500px; /* Adjust max-width as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #007bff; /* Blue background for header */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    text-align: center; /* Center align header text */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #28a745; /* Green button */
+    border-color: #28a745;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  textarea.form-control {
+    font-size: 1rem;
+    resize: none; /* Prevent textarea resizing */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  

@@ -1,0 +1,14 @@
+/* NoteList.css */
+.row {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap between notes */
+    justify-content: center;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 calc(50% - 20px); /* Adjust width of column to fit two notes per row */
+    max-width: calc(50% - 20px); /* Adjust maximum width of column */
+  }
+  
